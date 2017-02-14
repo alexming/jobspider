@@ -17,48 +17,15 @@ DB_CONFIG = {
     'remote_253':
     {
         'type': 'mssql', 'host': '192.168.1.253', 'port': 1433, 'user': 'sa',
-        'passwd': 'qy7tt@br38w', 'db': 'JobDataSpider'
+        'passwd': 'root', 'db': 'JobDataSpider'
     },
     #mysql
     'v2_job_company_db':
     {
         'type': 'mysql', 'host': '192.168.133.198', 'port': 3306, 'user': 'dev_import',
-        'passwd':'Iamis_2015_IMPORT_0202', 'db': 'v2_job_company_db'
+        'passwd':'root', 'db': 'v2_job_company_db'
     },
-    #mysql proxy
-    'proxy_server':
-    {
-        'type': 'mysql', 'host': '192.168.1.251', 'port': 3306, 'user': 'root',
-        'passwd': 'root', 'db': 'jobdataspider'
-    },
-    #mysql
-    'remote_233':
-    {
-        'type': 'mysql', 'host': '192.168.1.233', 'port': 3306, 'user': 'root',
-        'passwd':'root', 'db': 'jobdataspider'
-    },
-    #GSX
-    'GSX':
-    {
-        'type': 'mysql', 'host': '192.168.1.251', 'port': 3306, 'user': 'root',
-        'passwd': 'root', 'db': 'jobdataspider'
-    },
-    #Foreign
-    'Foreign':
-    {
-        'type': 'mssql', 'host': '192.168.1.253', 'port': 1433, 'user': 'sa',
-        'passwd': 'qy7tt@br38w', 'db': 'JobDataForeign'
-    },
-    'yyg':
-    {
-        'type': 'mysql', 'host': '192.168.1.251', 'port': 3306, 'user': 'root',
-        'passwd': 'root', 'db': 'yyg'
-    },
-    'BuDejie':
-    {
-        'type': 'mysql', 'host': '192.168.1.252', 'port': 3306, 'user': 'root',
-        'passwd': 'root', 'db': 'budejie'
-    },
+   ,
 }
 
 
